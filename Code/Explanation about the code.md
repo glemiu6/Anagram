@@ -44,7 +44,7 @@ We use the variable `grup` to get the values from the dictionary and to give the
 ---
 
 ## Maintainability
-For the code [anagram](Code/anagram.py)
+For the code [anagram](https://github.com/glemiu6/Anagram/blob/master/Code/anagram.py)
 
 ## Scalability
 ...textul corespunzător...

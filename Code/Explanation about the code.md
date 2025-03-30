@@ -40,6 +40,7 @@ We use the variable `grup` to get the values from the dictionary and to give the
         for grup in dictionary_anagram.values():
             output.write(' '.join(grup) + '\n')
 ```
+I also made a improved program that has a better time complexity
 
 ---
 
@@ -56,6 +57,8 @@ The program [anagram](https://github.com/glemiu6/Anagram/blob/master/Code/anagra
 But if the file size is getting bigger this program won't be too efficient.  
 That's why I made an improved version of the program that has a better time complexity:
 - [anagram_v2](https://github.com/glemiu6/Anagram/blob/master/Code/anagram_v2.py)
+The main difference between the two programs is that one uses a frequency method and the other uses a sorting algorithm. 
+
 
 
 

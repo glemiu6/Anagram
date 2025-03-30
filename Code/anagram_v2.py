@@ -1,4 +1,4 @@
-
+import time
 from collections import defaultdict
 def anagram(sample):
     """
@@ -27,7 +27,7 @@ def anagram(sample):
             """
             key = tuple(char_count)
             dictionary_anagram[key].append(word)
-        print(dictionary_anagram)
+
         """
         {
         (1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0): ['act', 'cat'],
@@ -45,5 +45,5 @@ def anagram(sample):
             output.write(' '.join(grup) + '\n')
     return f'The result is stored in the file result.txt'
 
-if __name__ == '__main__':
-    print(anagram("sample.txt"))
+if __name__ == "__main__":
+    print(anagram('sample.txt'))

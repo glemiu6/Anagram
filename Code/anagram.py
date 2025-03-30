@@ -1,3 +1,4 @@
+import time
 def anagram(sample:str) ->str:
     """
     :param sample:file

@@ -19,7 +19,7 @@ def anagram(sample:str) ->str:
     #add the word to it's key
         dictionary_anagram[sorted_word].append(word)
     """
-    Create a file and add the anagrams
+    Create a file and add the anagrams values and group them adding a space between them 
     """
     with open("result.txt", "w") as output:
         for grup in dictionary_anagram.values():

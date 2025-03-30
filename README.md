@@ -11,7 +11,7 @@
 
 
 ---
-## Oblectives
+## Objectives
 ### Develop a program in Python that pairs a group of anagrams from a given file.
 
 ---

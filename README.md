@@ -7,6 +7,7 @@
 ## Summary
 1. [Objectives](#objectives)
 2. [Setting up the environment](#setting-up-the-environment)
+3. [Explanation about the code](https://github.com/glemiu6/Anagram/blob/master/Code/Explanation%20about%20the%20code.md)
 
 
 ---

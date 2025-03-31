@@ -116,6 +116,15 @@ But the code [anagram_v2](https://github.com/glemiu6/Anagram/blob/master/Code/an
 If we were to approximate it,we will have a time of `O(n) `.  
 The reason for this better time complexity is that we use a frequency count instead of a sorting.   
 
-To see the difference in time for the following input file , I make a function that calculates the time of execution of the function [time_execution]().  
-- For the [anagram](https://github.com/glemiu6/Anagram/blob/master/Code/anagram.py) we got:
-- 
+To see the difference in time for the following input file , I made a calculation that gets us the time of execution of the function( [time_execution](https://github.com/glemiu6/Anagram/blob/master/Code/time_calculation.py)).  
+- For the [anagram](https://github.com/glemiu6/Anagram/blob/master/Code/anagram.py) we got the time:
+`Time of execution: 0.00048 seconds`
+- For the [anagram_v2](https://github.com/glemiu6/Anagram/blob/master/Code/anagram_v2.py) we got: 
+`Time of execution: 0.00053 seconds`
+
+I also got 500 anagrams to see the difference in time if the file got bigger, and the results are the following(on my device):
+- [anagram](https://github.com/glemiu6/Anagram/blob/master/Code/anagram.py) = `Time of execution: 0.00060 seconds`
+- [anagram_v2](https://github.com/glemiu6/Anagram/blob/master/Code/anagram_v2.py) = `Time of execution: 0.00063 seconds`  
+
+
+In conclusion, if the input file is getting bigger , the second version is better as we can see that the inicial difference in time was `0.00005 seconds` and after the word amount was increased, the time difference went down to `0.00003 seconds`.

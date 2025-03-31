@@ -18,10 +18,7 @@
 
 ## Setting up the environment
 Install [Python](https://www.python.org/downloads/) IDLE.  
-After that check the version with this code :
-```bash
-python --version
-```
+
 Now we create a virtual environment so we can run the code.  
 
 ### 1. Creating the environment:

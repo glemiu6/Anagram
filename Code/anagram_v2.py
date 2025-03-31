@@ -1,4 +1,4 @@
-import time
+
 from collections import defaultdict
 def anagram(sample):
     """
